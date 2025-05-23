@@ -1,0 +1,78 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bar{
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.namdep {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+.nambel{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.navigasi {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navigasi>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigasi>li>a {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.portofolio1 {
+    justify-content: center;
+    padding-left: 250px;
+    color: red;
+}
+
+.judul1 {
+    font-size: 30px;
+    padding-left:250px;
+    font-weight: 900;
+}
+
+.portofolio2 {
+    justify-content: center;
+    padding-left: 250px;
+    color: red;
+}
+
+.judul2 {
+    font-size: 30px;
+    padding-left:250px;
+    font-weight: 900;
+}
+
+.Back {
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(taylor-vick-M5tzZtFCOfs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
